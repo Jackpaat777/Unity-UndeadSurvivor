@@ -5,12 +5,12 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    public Vector2 inputVec;
     public float speed;
 
     Rigidbody2D rigid;
     SpriteRenderer spriter;
     Animator anim;
-    Vector2 inputVec;
 
     void Awake()
     {
